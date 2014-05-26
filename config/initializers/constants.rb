@@ -1,1 +1,3 @@
-GENERATOR_ADDITION = "logicly7864hynks3vdhjdrfun3rsh42ewdhdfh4cbxcngfj"
+GENERATOR_ADDITION = 'logicly7864hynks3vdhjdrfun3rsh42ewdhdfh4cbxcngfj'
+GOOGLE_ANALYTICS_ACCOUNT = 'UA-51347640-1'
+GOOGLE_ANALYTICS_DOMAIN = 'logicly.org'
