@@ -16,6 +16,7 @@ gem 'sinatra', '>= 1.4.5', :require => nil
 gem 'mixpanel-ruby', '~> 1.4.0'
 gem 'newrelic_rpm', '~> 3.8.1.221'
 gem 'redcarpet', '~> 3.1.2'
+gem 'aws-sdk', '~> 1.41.0'
 
 group :assets do
   gem 'sass-rails', '~> 4.0.1'
