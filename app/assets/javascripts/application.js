@@ -1,16 +1,19 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// compiled file.
-//
-// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-// about supported directives.
-//
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+// Assets we may need in the future
+// require jquery_ujs
+
+// Ember Application Library Assets
+//= require library/jquery
+//= require library/handlebars
+//= require library/ember
+//= require library/ember-data
+//= require app-v1/app
+//= require app-v1/app-data-config
+//= require app-v1/app-templates-config
+//= require app-v1/routes/base
+//= require app-v1/controllers/base
+//= require_tree ./app-v1/helpers
+//= require_tree ./app-v1/routes
+//= require_tree ./app-v1/controllers
+// require_tree ./app-v1/models
+// require_tree ./app-v1/views
+// require_tree .
