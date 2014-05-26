@@ -94,7 +94,7 @@ If your database is throwing errors when starting your server, you may just need
 
 The local server can be accessed at:
 
-    54.54.54.11:3000
+    42.42.42.42:3000
 
 ## Troubleshooting
 
