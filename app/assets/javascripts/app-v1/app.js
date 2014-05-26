@@ -64,7 +64,7 @@ App.Router.reopen({
 });*/
 
 // Google Analytics Support
-/*App.Router.reopen({
+App.Router.reopen({
   notifyGoogleAnalytics: function() {
     // Discern if Google Analytics is set up.
     if(window._gaq !== undefined){
@@ -75,4 +75,4 @@ App.Router.reopen({
       });
     }
   }.on('didTransition')
-});*/
+});

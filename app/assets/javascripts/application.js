@@ -2,6 +2,7 @@
 // require jquery_ujs
 
 // Ember Application Library Assets
+//= require app-v1/helpers/google-analytics
 //= require library/jquery
 //= require library/handlebars
 //= require library/ember
