@@ -1,9 +1,9 @@
 Logicly::Application.routes.draw do
-  #namespace :api, :constraints => {:format => 'json'} do
-  #  namespace :v1 do
-  #    # API Placeholder
-  #  end
-  #end
+  namespace :api, :constraints => {:format => 'json'} do
+    namespace :v1 do
+      resources :betalists
+    end
+  end
 
   #admin_constraint = lambda { |request| request.env["rack.session"]["user_id"] && User.find(request.env["rack.session"]["user_id"]).admin? }
   #constraints admin_constraint do
