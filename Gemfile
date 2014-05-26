@@ -17,10 +17,6 @@ gem 'mixpanel-ruby', '~> 1.4.0'
 gem 'newrelic_rpm', '~> 3.8.1.221'
 gem 'redcarpet', '~> 3.1.2'
 
-group :production do
-  gem 'rails_12factor', '~> 0.0.2'
-end
-
 group :assets do
   gem 'sass-rails', '~> 4.0.1'
   gem 'coffee-rails', '~> 4.0.1'
