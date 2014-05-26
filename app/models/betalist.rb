@@ -8,7 +8,7 @@ class Betalist < ActiveRecord::Base
 
   def send_notifications
     BetalistMailer.delay.notify_admin(self, 'shawn@logicly.org')
-    #BetalistMailer.delay.notify_admin(self, 'justin@logicly.org')
+    BetalistMailer.delay.notify_admin(self, 'justin@logicly.org')
     BetalistMailer.delay.notify_user(self)
   end
 end
