@@ -1,0 +1,35 @@
+html, body, body > .ember-view { 
+  height: 100%; 
+  font-family: AvenirNext-Regular, sans-serif; 
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  cursor: default; 
+  font-size: 12pt; 
+  margin: 0; 
+  padding: 0; 
+  text-align: left;
+
+  div, header, footer, li, a, button, input, textarea {
+    position: relative;
+    margin: auto;
+    outline: none; 
+  }
+
+  a {
+    color: #0070b3;
+    &:hover {
+      color: #0a86d1;
+    }
+    &:visited {
+      color: #0070b3;
+    }
+    &:active {
+      color: #0070b3;
+    }
+  }
+}

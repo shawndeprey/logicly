@@ -1,15 +1,25 @@
-<script type="text/x-handlebars">
-  <div id="app">
-    <header>
-      <h1>Logicly</h1>
-    </header>
-
-    <div>
-      {{outlet}}
+<div id="app">
+  <header>
+    <div class="nav">
+    <span>#understandlogicly</span>
+      <a href="/"><%= image_tag("logo-small-white.png") %></a>
     </div>
+  </header>
 
-    <footer>
-      <h3>This be a footer</h3>
-    </footer>
+  <div>
+    {{outlet}}
   </div>
-</script>
+
+  <footer>
+    <div class="foot">
+      <%= image_tag("logo-small-white.png") %>
+      <span>
+        If Ideas have the power to change the world, then <br>we need to ensure everyone understands those ideas.
+      </span>
+    </div>
+    <div class="links">
+      <a href="/"><h1>Logicly</h1></a>
+      <span>© 2014 logicly.org</span>
+    </div>
+  </footer>
+</div>
