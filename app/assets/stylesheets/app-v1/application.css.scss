@@ -4,12 +4,27 @@ header {
     background-color: #2a487b;
     border-bottom: 6px solid #0070b3;
 
-    img {
-      width: 4em;
-      position: relative;
+    span {
+      height: 100%;
+      color: #FFFFFF;
+      line-height: 54px;
+      padding-left: 0.7em;
+      font-size: 22px;
+      font-family: AvenirNext-UltraLight;
+
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+    }
+
+    a {
+      position: absolute;
       top: -0.55em;
       left: 50%;
       margin-left: -2em;
+      img {
+        width: 4em; 
+      }
     }
   }
 }
@@ -20,11 +35,20 @@ footer {
     background-color: #2b2b2b;
     border-top: 10px solid #1a1a1a;
 
+    @media (max-width: 600px) {
+      height: 250px;
+    }
+
     img {
       width: 22em;
       position: absolute;
       left: 50%;
       margin-left: -11em;
+
+      @media (max-width: 600px) {
+        width: 12em;
+        margin-left: -6em;
+      }
     }
 
     span {
@@ -35,6 +59,11 @@ footer {
       padding-left: 1.25em;
       font-family: AvenirNext-UltraLight;
       opacity: 0.7;
+
+      @media (max-width: 600px) {
+        font-size: 12px;
+        padding-left: 0.75em;
+      }
     }
   }
 
@@ -43,12 +72,22 @@ footer {
     background-color: #1a1a1a;
     line-height: 100px;
 
+    @media (max-width: 600px) {
+      height: 50px;
+      line-height: 50px;
+    }
+
     h1 {
       margin: 0px;
       display: inline-block;
       color: #FFFFFF;
       font-family: AvenirNext-UltraLight;
       padding-left: 0.7em;
+
+      @media (max-width: 600px) {
+        height: 50px;
+        font-size: 16px;
+      }
     }
   }
 }
