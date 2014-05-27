@@ -1,4 +1,5 @@
 /*
 *= require_self
+*= require_tree ./app-v1
 *= require_tree .
 */

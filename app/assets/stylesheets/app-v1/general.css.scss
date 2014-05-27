@@ -1,0 +1,22 @@
+html, body.v1, body.v1 > .ember-view { 
+  height: 100%; 
+  font-family: AvenirNext-Regular, sans-serif; 
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body.v1 {
+  cursor: default; 
+  font-size: 12pt; 
+  margin: 0; 
+  padding: 0; 
+  text-align: left;
+
+  div, header, footer, li, a, button, input, textarea {
+    position: relative;
+    margin: auto;
+    outline: none; 
+  }
+}
