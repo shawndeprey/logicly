@@ -1,1 +1,35 @@
-<p>This is the index.</p>
+<div class="what-is-logicly">
+  <h2>What is Logicly?</h2>
+  <%= image_tag("photo/iconic-shot-of-earth.jpg") %>
+  <p>
+    A Platform for discovery and learning
+    <br /><br />
+    It is a social discussion and consensus ecosystem where you can partake in 
+    discussion and ratings in the <a {{action scroll_to '#idea-base'}}>Idea Base</a> and 
+    <a {{action scroll_to '#link-base'}}>Link Base</a>.
+  </p>
+</div>
+
+<div class="base-container">
+  <h2>Sharing ideas is what Logicly is all about</h2>
+  <div class="bases">
+    <div id="idea-base">
+      <center><%= image_tag("photo/lightbulb-sprout.png") %></center>
+      <h2>What is the Idea Base?</h2>
+      <p>
+        The Idea Base is an encyclopedia-like, user-maintained database of ideas you want to 
+        discuss. Whether that idea is a controversial theory or an interesting question, 
+        anything is open for discussion.
+      </p>
+    </div>
+    <div id="link-base">
+      <center><%= image_tag("photo/www.png") %></center>
+      <h2>What is the Link Base?</h2>
+      <p>
+        The Link Base is a database of user-submitted links to any page around the web you want
+        to discuss. Whether that link is a YouTube video with disabled ratings and comments or 
+        a controversial tweet, anything is open for discussion.
+      </p>
+    </div>
+  </div>
+</div>
