@@ -37,6 +37,16 @@ header {
   }
 }
 
+section {
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 95em;
+  @media (max-width: 600px) {
+    padding: 0.5em;
+    margin: 0.5em 0.5em 1em 0.5em;
+  }
+}
+
 footer {
   div.foot {
     height: 390px;
