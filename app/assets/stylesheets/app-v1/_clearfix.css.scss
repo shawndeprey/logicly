@@ -1,0 +1,13 @@
+.clearfix {
+  display: inline-block;
+  zoom: 1;
+
+  &:after {
+    content: " ";
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}

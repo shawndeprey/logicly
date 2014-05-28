@@ -1,4 +1,7 @@
 App.BaseController = Ember.ObjectController.extend({
   needs: ['application'],
-  reset: function(){}
+  reset: function(){},
+  scroll_to: function(element){
+    $(element).scrollToElement();
+  }
 });

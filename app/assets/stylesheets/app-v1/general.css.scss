@@ -14,13 +14,33 @@ body {
   padding: 0; 
   text-align: left;
 
-  p, h1, h2, h3, h4, h5, h6, span, div {
+  h1, h2, h3, h4, h5, h6 {
+    color: #2a487b;
+  }
+  h2 {
+    text-align: center;
+    padding: 0 15px;
+    margin: 0.5em 0 0.5em 0;
+    font-size: 2em;
+    font-weight: 100;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+    @media (max-width: 600px) {
+      font-size: 1.5em;
+    }
   }
 
   p {
     margin: 15px;
+    color: #323232;
+    font-size: 1.3em;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+    @media (max-width: 600px) {
+      font-size: 1em;
+    }
   }
 
   div, header, footer, li, a, button, input, textarea {
