@@ -79,8 +79,33 @@ body {
     }
 
     section {
+      padding-top: 50px;
+      @media (max-width: 900px) {
+        padding-top: 0px;
+      }
+
       div.bases {
         margin-top: 30px;
+        @media (max-width: 900px) {
+          margin-top: 0px;
+        }
+
+        &.discussion {
+          div {
+            &:nth-of-type(1) {
+              border-right-width: 0px;
+            }
+
+            img {
+              margin: 67px 0 0 -97px;
+              height: 100px;
+
+              @media (max-width: 900px) {
+                display: none;
+              }
+            }
+          }
+        }
 
         p {
           padding: 0 30px;
@@ -97,7 +122,7 @@ body {
           height: 120px;
 
           @media (max-width: 600px) {
-            height: 100px;
+            display: none;
           }
         }
 
@@ -132,80 +157,5 @@ body {
         }
       }
     }
-
-    /*
-    div.base-container {
-      padding-top: 30px;
-      @media (max-width: 600px) {
-        padding-top: 0;
-      }
-
-      div.bases {
-        position: relative;
-        width: 100%;
-        left: 50%;
-        margin: 30px 0 0 -40%;
-
-        @media (max-width: 1450px) {
-          margin: 30px 0 0 -50%;
-          width: 125%;
-        }
-
-        @media (max-width: 900px) {
-          margin: 30px 0 0 0;
-          left: 0px;
-          width: 100%;
-        }
-
-        p {
-          padding: 0 30px;
-          line-height: 35px;
-
-          @media (max-width: 600px) {
-            padding: 0;
-            line-height: initial;
-          }
-        }
-
-        img {
-          height: 120px;
-
-          @media (max-width: 600px) {
-            height: 100px;
-          }
-        }
-
-        div {
-          width: 40%;
-          display: inline-block;
-          vertical-align: top;
-
-          @media (max-width: 900px) {
-            width: 100%;
-            display: block;
-          }
-
-          &:nth-of-type(1) {
-            display: inline-block;
-            zoom: 1;
-
-            &:after {
-              content: " ";
-              display: inline-block;
-              font-size: 0;
-              height: 0;
-              clear: both;
-              visibility: hidden;
-            }
-            border-right: 1px solid rgba(203, 203, 165, 0.75);
-            
-            @media (max-width: 900px) {
-              border-right-width: 0px;
-            }
-          }
-        }
-      }
-    }
-    */
   }
 }

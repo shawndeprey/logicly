@@ -14,6 +14,12 @@ body {
   padding: 0; 
   text-align: left;
 
+  .hidden-on-mobile {
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
   h1, h2, h3, h4, h5, h6 {
     color: #2a487b;
   }
