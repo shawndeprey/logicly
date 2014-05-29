@@ -2,7 +2,10 @@
   <header>
     <div class="nav">
       <span>#understandlogicly</span>
-      <a href="/"><%= image_tag("logo-small-white.png") %></a>
+      <a href="/">
+      {{#link-to 'index'}}
+        <%= image_tag("logo-small-white.png") %>
+      {{/link-to}}
       <span class="title">Logicly</span>
     </div>
   </header>
