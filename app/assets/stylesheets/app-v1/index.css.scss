@@ -78,14 +78,6 @@ body {
       }
     }
 
-    div.discussion-section {
-      >img {
-        position: absolute;
-        width: 100%;
-        margin: 0 0 -6px 0;
-      }
-    }
-
     section {
       padding-top: 50px;
       @media (max-width: 900px) {
@@ -130,7 +122,8 @@ body {
           height: 120px;
 
           @media (max-width: 600px) {
-            display: none;
+            //display: none;
+            height: 75px;
           }
         }
 
