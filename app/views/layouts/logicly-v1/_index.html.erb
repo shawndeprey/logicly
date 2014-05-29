@@ -10,7 +10,19 @@
   </p>
 </div>
 
-<section>
+<section class="signup-section top-signup-section">
+  <h2>Interested in inspiring others with your ideas?</h2>
+  <div>
+    <center>
+      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" valueBinding=email}}
+      <button {{action "submit"}} {{bind-attr disabled=disabled}}>Join the Logicly Beta Now</button>
+    </center>
+  </div>
+</section>
+
+<div class="special-hr"></div>
+
+<section class="dual-content">
   <h2 class="hidden-on-mobile">Sharing ideas is what Logicly is all about</h2>
   <div class="bases">
     <div id="idea-base">
@@ -34,9 +46,9 @@
   </div>
 </section>
 
-<div class="special-hr only-on-mobile"></div>
+<div class="special-hr"></div>
 
-<section>
+<section class="dual-content">
   <h2 class="hidden-on-mobile">Discussion on Logicly is easy with our Discussion Platform</h2>
   <div class="bases discussion">
     <div>
@@ -53,5 +65,17 @@
     <div>
       <center><%= image_tag("photo/speech-bubbles.png") %></center>
     </div>
+  </div>
+</section>
+
+<div class="special-hr no-margin"></div>
+
+<section class="signup-section bottom-signup-section">
+  <h2>Interested in inspiring others with your ideas?</h2>
+  <div>
+    <center>
+      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" valueBinding=email}}
+      <button {{action "submit"}} {{bind-attr disabled=disabled}}>Join the Logicly Beta Now</button>
+    </center>
   </div>
 </section>

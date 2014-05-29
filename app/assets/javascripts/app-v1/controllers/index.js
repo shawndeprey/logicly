@@ -1,2 +1,3 @@
-App.IndexController = App.BaseController.extend({
+App.IndexController = App.FormController.extend({
+  
 });
