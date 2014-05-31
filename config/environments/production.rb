@@ -84,4 +84,7 @@ Logicly::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # prerender.io
+  config.middleware.use Rack::Prerender, prerender_token: '5UKQ97Rg7EXX5h9RTaAz'
 end
