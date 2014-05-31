@@ -86,6 +86,38 @@ body {
           margin-top: 0px;
         }
 
+        &.in-beta {
+          div {
+            &:nth-of-type(1) {
+              border-right-width: 0px;
+            }
+
+            span {
+              display: block;
+              margin-top: 3em;
+
+              @media (max-width: 900px) {
+                margin-top: 1em;
+              }
+
+              a {
+                display: inline-block;
+              }
+              img {
+                height: 100px;
+
+                &.with-margin {
+                  margin-left: 1em;
+                }
+
+                @media (max-width: 600px) {
+                  height: 65px;
+                }
+              }
+            }
+          }
+        }
+
         &.discussion {
           div {
             &:nth-of-type(1) {
@@ -95,10 +127,6 @@ body {
             img {
               margin: 67px 0 0 -97px;
               height: 100px;
-
-              @media (max-width: 900px) {
-                display: none;
-              }
             }
           }
         }
@@ -128,6 +156,12 @@ body {
           display: inline-block;
           vertical-align: top;
 
+          &.has-img {
+            @media (max-width: 900px) {
+              display: none;
+            }
+          }
+
           @media (max-width: 900px) {
             width: 100%;
             display: block;
@@ -136,6 +170,12 @@ body {
           &:nth-of-type(1) {
             display: inline-block;
             zoom: 1;
+
+            &.has-img {
+              @media (max-width: 900px) {
+                display: none;
+              }
+            }
 
             &:after {
               content: " ";

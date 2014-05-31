@@ -63,7 +63,7 @@
         most popular opinions in each viewpoint rise to the top.
       </p>
     </div>
-    <div>
+    <div class="has-img">
       <center><%= image_tag("photo/speech-bubbles.png") %></center>
     </div>
   </div>
@@ -71,8 +71,40 @@
 
 <div class="special-hr no-margin"></div>
 
+<section class="dual-content">
+  <h2 class="hidden-on-mobile">We are building something that everyone can learn from</h2>
+  <div class="bases in-beta">
+    <div>
+      <center>
+        <%#= image_tag("photo/moon.jpg", :class => "moon") %>
+        <span>
+          <a href="https://twitter.com/2logicly" target="_BLANK">
+            <%= image_tag("icons/webicon-twitter.svg") %>
+          </a>
+          <a href="https://plus.google.com/u/5/b/107502998479803230755/107502998479803230755/about" target="_BLANK">
+            <%= image_tag("icons/webicon-googleplus.svg", :class => "with-margin") %>
+          </a>
+          <a href="https://www.facebook.com/2Logicly" target="_BLANK">
+            <%= image_tag("icons/webicon-facebook.svg", :class => "with-margin") %>
+          </a>
+        </span>
+      </center>
+    </div>
+    <div>
+      <h3>We are building the Logicly Beta</h3>
+      <p>
+        We are currently building Logicly and plan to launch the Beta as soon as it's ready. If you 
+        would like to help spread the word, feel free to share our website and social networks. You 
+        can also keep up to date buy following us on twitter or any of our other social fronts.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="special-hr"></div>
+
 <section class="signup-section bottom-signup-section">
-  <h2>Interested in inspiring others with your ideas?</h2>
+  <h2>Ready to help others understand the world?</h2>
   <div>
     <center>
       {{view App.ErrorsView errors=errors}}
