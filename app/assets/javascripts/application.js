@@ -17,5 +17,5 @@
 //= require_tree ./app-v1/models
 //= require_tree ./app-v1/helpers
 //= require_tree ./app-v1/controllers
-// require_tree ./app-v1/views
+//= require_tree ./app-v1/views
 // require_tree .

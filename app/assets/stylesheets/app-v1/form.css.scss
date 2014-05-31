@@ -67,3 +67,14 @@ button {
     opacity: 0.5;
   }
 }
+
+ul.errors {
+  list-style: none;
+  padding: 0;
+
+  li {
+    color: rgb(190, 87, 87);
+    width: 50%;
+    text-align: left;
+  }
+}
