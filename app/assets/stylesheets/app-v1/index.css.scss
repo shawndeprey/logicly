@@ -156,6 +156,12 @@ body {
     }
 
     section.signup-section {
+      margin-bottom: 2em;
+
+      @media (max-width: 600px) {
+        margin-bottom: 1em;
+      }
+
       h2 {
         @media (max-width: 600px) {
           font-size: 1.2em;
