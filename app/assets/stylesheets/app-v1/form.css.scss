@@ -76,5 +76,17 @@ ul.errors {
     color: rgb(190, 87, 87);
     width: 50%;
     text-align: left;
+
+    @media (max-width: 1250px) {
+      width: 65%;
+    }
+
+    @media (max-width: 900px) {
+      width: 92%;
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 }
