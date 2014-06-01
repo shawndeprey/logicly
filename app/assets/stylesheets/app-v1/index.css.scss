@@ -125,8 +125,8 @@ body {
             }
 
             img {
-              margin: 67px 0 0 0;
-              height: 100px;
+              height: 319px;
+              -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(0.85, black), color-stop(0.99, transparent), color-stop(1, transparent));
             }
           }
         }
