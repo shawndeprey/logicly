@@ -15,7 +15,7 @@
   <div>
     <center>
       {{view App.ErrorsView errors=errors}}
-      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" valueBinding=email}}
+      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" value=email}}
       <button {{action "submit"}} {{bind-attr disabled=disabled}}>Join the Logicly Beta Now</button>
     </center>
   </div>
@@ -108,7 +108,7 @@
   <div>
     <center>
       {{view App.ErrorsView errors=errors}}
-      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" valueBinding=email}}
+      {{input type="text" placeholder="Your email address" spellcheck="false" autocomplete="off" value=email}}
       <button {{action "submit"}} {{bind-attr disabled=disabled}}>Join the Logicly Beta Now</button>
     </center>
   </div>

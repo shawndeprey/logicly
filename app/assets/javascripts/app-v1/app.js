@@ -71,7 +71,6 @@ App.Router.reopen({
       // Tell Google Analytics to track this page transition.
       var url = this.get('url');
       Ember.run.next(function(){
-        console.log('Sending Google Analytic Data');
         window._gaq.push(['_trackPageview', url]);
       });
     }
